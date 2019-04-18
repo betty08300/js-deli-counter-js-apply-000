@@ -11,4 +11,10 @@ function nowServing(currentLine){
   }
 }
 
-function currentLine() {}
+function currentLine(line) {
+  if (line.length > 0) {
+
+  } else {
+    return 'The line is currently empty.';
+  }
+}
