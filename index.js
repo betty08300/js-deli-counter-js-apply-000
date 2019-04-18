@@ -8,9 +8,8 @@ function takeANumber(currentLine, name){
 }
 
 function nowServing(currentLine){
-  for (var i = 0; i < currentLine.length; i++) {
-    var current = currentLine[i];
-    return current;
+  if (currentLine.length > 0) {
+    return currentLine.shift();
   } else {
     return "There is nobody waiting to be served!"
   }
