@@ -17,8 +17,6 @@ function currentLine(line) {
   }
   for (var i = 0; i < line.length; i++) {
     var name = line[i];
-    return `The line is currently:${i+1}. ${name}`
   }
-
-
+  return `The line is currently:${i+1}. ${name}`
 }
