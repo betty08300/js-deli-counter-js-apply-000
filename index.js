@@ -10,3 +10,5 @@ function nowServing(currentLine){
     return "There is nobody waiting to be served!"
   }
 }
+
+function currentLine()
