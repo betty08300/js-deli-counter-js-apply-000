@@ -1,5 +1,10 @@
 function takeANumber(currentLine, name){
-  return `Welcome, ${name}. You are number ${currentLine} in line.`;
+  for (var i = 0; i < currentLine.length; i++) {
+    var currentPerson = currentLine[i];
+    if (name === currentPerson) {
+      return `Welcome, ${name}. You are number ${i + 1} in line.`;
+    }
+  }
 }
 
 function nowServing(currentLine){
