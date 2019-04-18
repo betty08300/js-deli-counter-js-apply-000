@@ -15,4 +15,4 @@ function nowServing(currentLine){
   }
 }
 
-function currentLine()
+function currentLine() {}
