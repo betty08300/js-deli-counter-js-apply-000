@@ -20,5 +20,5 @@ function currentLine(line) {
     var name = line[i];
     result += `${i+1}. ${name},`
   }
-  return result
+  return result;
 }
