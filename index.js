@@ -19,6 +19,9 @@ function currentLine(line) {
   for (var i = 0; i < line.length; i++) {
     var name = line[i];
     result += ` ${i+1}. ${name}`
+    if (i < line.length -1) {
+      result += ',';
+    }
   }
   return result;
 }
